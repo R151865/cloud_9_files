@@ -1,0 +1,17 @@
+************* Module tests
+tests:1: [F0001(fatal), ] No module named tests
+************* Module truck
+truck.py:23: [R0201(no-self-use), Truck.is_valid_cargo_weight] Method could be a function
+************* Module race_car
+race_car.py:16: [C0325(superfluous-parens), ] Unnecessary parens after 'if' keyword
+race_car.py:19: [C0325(superfluous-parens), ] Unnecessary parens after 'if' keyword
+race_car.py:21: [C0325(superfluous-parens), ] Unnecessary parens after 'if' keyword
+race_car.py:22: [W0311(bad-indentation), ] Bad indentation. Found 16 spaces, expected 12
+race_car.py:33: [C0330(bad-continuation), ] Wrong continued indentation before block.
+           self.is_engine_started):
+           ^|   |
+race_car.py:32: [R0916(too-many-boolean-expressions), RaceCar.apply_brakes] Too many boolean expressions in if statement (2/1)
+
+-------------------------------------------------------------------
+Your code has been rated at 9.31/10 (previous run: 10.00/10, -0.69)
+

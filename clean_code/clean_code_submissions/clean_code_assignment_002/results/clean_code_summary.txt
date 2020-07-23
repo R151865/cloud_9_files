@@ -1,0 +1,34 @@
+Clean Code Results Summary at 23 Apr 09 35 PM:
+
+Overall Score: 9.367441860465117
+
+File wise summary:
+car: 10.0
+truck: 9.67741935483871
+race_car: 7.692307692307692
+tests.tests_race_car_acceleration: 9.62962962962963
+tests.tests_car_start_stop_engine: 9.444444444444445
+tests.race_car: 8.461538461538462
+tests.car: 10.0
+tests.tests_truck_acceleration: 9.642857142857142
+tests.tests_race_car_sound: 10.0
+tests.tests_car_init: 9.649122807017545
+tests.tests_truck_sound: 10.0
+tests.tests_race_car_encapsulation: 10.0
+tests.conftest: 10.0
+tests.tests_car_encapsulation: 9.18918918918919
+tests.tests_race_car_init: 10.0
+tests.tests_car_acceleration: 10.0
+tests.tests_truck_unload: 8.75
+tests.tests_car_sound_horn: 10.0
+tests.tests_car_brakes: 8.857142857142858
+tests.tests_race_car_start_stop: 8.88888888888889
+tests.tests_truck_init: 9.836065573770492
+tests.tests_truck_brakes: 9.166666666666666
+tests.truck: 10.0
+tests.tests_truck_start_stop: 8.61111111111111
+tests.tests_truck_encapsulation: 10.0
+tests.tests_race_car_brakes: 9.142857142857142
+tests.tests_race_car_nitro: 9.642857142857142
+tests.tests_race_car_instances: 10.0
+tests.tests_truck_load: 7.2368421052631575

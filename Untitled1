@@ -1,0 +1,104 @@
+from essentials_kit_management.storages.data_populate import *
+
+from essentials_kit_management.models import *
+
+
+
+
+curl -X POST "http://127.0.0.1:8080/api/essentials_kit_management/users/login/" -H "accept: application/json" -H  "Content-Type: application/json" -d "{  \"username\": \"prudhvi\",  \"password\": \"prudhvi123\"}" -H "Authorization: Bearer superuser"
+
+
+
+curl -X GET "http://127.0.0.1:8080/api/essentials_kit_management/forms/?offset=1&limit=2" -H "accept: application/json" -H "Authorization: Bearer superuser"
+
+
+
+#users login
+curl -X GET "http://127.0.0.1:8080/api/essentials_kit_management/users/login/" -H "accept: application/json" -H
+
+"Content-Type: application/json" -d '{  "form_id": 1, sections: []}' -H "Authorization: Bearer user123"
+
+
+curl -X GET "http://127.0.0.1:8080/api/essentials_kit_management/forms/?offset=1&limit=10" -H "accept: application/json" -H "Authorization: Bearer superuser"
+
+
+
+curl -X GET  "accept: application/json" "http://127.0.0.1:8080/api/essentials_kit_management/forms/?offset=1&limit=2" -H "Authorization: Bearer superuser"
+
+
+
+curl -d "" -H "Authorization: Bearer superuser123" http://127.0.0.1:8080/api/w/posts/v1/
+
+curl -H "content-type:application/json" -d '{"content": "dsgfhf"}' -H "Authorization: Bearer superuser123"  http://127.0.0.1:8080/api/fb_post_v2/comments/1/reply/v1/
+
+
+
+
+curl -X POST "http://127.0.0.1:8080/api/essentials_kit_management/users/transactions/request/" -H "accept: application/json" -H "Content-Type: application/json" -d "{ \"amount_paid\": 100, \"transaction_type\": \"PHONE_PAY\", \"transaction_id\": 123412, \"transaction_screenshot\": \"string/photo.png\"}" -H "Authorization: Bearer superuser"
+
+
+curl -X GET "http://127.0.0.1:8080/api/essentials_kit_management/forms/10/ordered/details/" -H "accept: application/json" -H "Authorization: Bearer superuser"
+
+# get form
+curl -X GET "http://127.0.0.1:8080/api/essentials_kit_management/forms/1/" -H "accept: application/json" -H "Authorization: Bearer superuser"
+
+
+
+
+# admin account details
+curl -X GET "http://127.0.0.1:8080/api/essentials_kit_management/admin/account/details/" -H  "accept: application/json" -H "Authorization: Bearer superuser"
+
+
+
+
+
+
+# update form 
+curl -X POST "http://127.0.0.1:8080/api/essentials_kit_management/forms/update/" -H "accept: application/json" -H "Content-Type: application/json" -d "{ \"form_id\": 1, \"sections\": [ { \"section_id\": 1, \"order_details\": [ { \"item_id\": 1, \"order_id\": 1, \"brand_id\": 3, \"ordered_count\": 50, \"out_of_stock\": 10 } ] } ]}" -H "Authorization: Bearer user123"
+
+
+
+
+
+curl -X GET "http://127.0.0.1:8080/api/essentials_kit_management/users/transactions/" -H "accept: application/json" -H "Authorization: Bearer user123"
+
+
+# user login
+
+
+#transaction request
+curl -X POST "http://127.0.0.1:8080/api/essentials_kit_management/users/transactions/request/" -H "accept: application/json" -H "Content-Type: application/json" -d "{ \"amount_paid\": 100, \"transaction_type\": \"PHONE_PAY\", \"transaction_id\": 1234, \"transaction_screenshot\": \"string/.png\"}" -H "Authorization: Bearer superuser"
+
+# closed form ordered details
+curl -X GET "http://127.0.0.1:8080/api/essentials_kit_management/forms/1/ordered/details/" -H "accept: application/json" -H "Authorization: Bearer superuser"
+
+
+
+
+# lets rock
+
+
+from essentials_kit_management.models import *
+
+from essentials_kit_management.storages.populate_data import *
+
+from django.db import connection
+
+
+orders = Order.objects.filter(id__in=[1,2,3,4,5,6,7, 8, 9,10])
+for i in orders:
+    i.count=100
+    i.pending_count=10
+
+Order.objects.bulk_update(orders, ["count", "pending_count"])
+
+
+
+
+curl -X GET "http://127.0.0.1:8080/api/essentials_kit_management/forms/1/" -H "accept: application/json" -H "Authorization: Bearer user123"
+
+
+
+
+
+

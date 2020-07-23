@@ -1,0 +1,25 @@
+Clean Code Results Summary at 28 Apr 11 56 AM:
+
+Overall Score: -2.8611898016997177
+
+File wise summary:
+fb_post.utils: -2.7272727272727266
+fb_post.utils.get_posts_with_more_positive_reactions: 9.047619047619047
+fb_post.utils.utils_dicts: 10.0
+fb_post.utils.get_user_posts: 10.0
+fb_post.utils.get_replies_for_comment: 5.0
+fb_post.utils.delete_post: -6.0
+fb_post.utils.get_posts_reacted_by_user: 10.0
+fb_post.utils.get_total_reaction_count: 10.0
+fb_post.utils.create_post: 10.0
+fb_post.utils.get_reaction_metrics: 1.666666666666666
+fb_post.utils.reply_to_comment: 9.565217391304348
+fb_post.utils.create_comment: 8.75
+fb_post.utils.react_to_post: 8.181818181818182
+fb_post.utils.get_reactions_to_post: 5.0
+fb_post.utils.get_post_details_dict: 8.61111111111111
+fb_post.utils.utils_validators: 5.769230769230769
+fb_post.utils.get_post: 10.0
+fb_post.utils.react_to_comment: 9.45945945945946
+fb_post/constants: -184.21052631578948
+fb_post/exceptions: 9.444444444444445

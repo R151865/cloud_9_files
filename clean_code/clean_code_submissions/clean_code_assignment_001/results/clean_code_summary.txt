@@ -1,0 +1,8 @@
+Clean Code Results Summary at 22 Apr 05 29 PM:
+
+Overall Score: 9.313725490196079
+
+File wise summary:
+car: 10.0
+truck: 9.67741935483871
+race_car: 7.692307692307692

@@ -1,0 +1,102 @@
+************* Module store
+store.py:5: [C0301(line-too-long), ] Line too long (80/79)
+store.py:165: [W0311(bad-indentation), ] Bad indentation. Found 13 spaces, expected 12
+store.py:166: [W0311(bad-indentation), ] Bad indentation. Found 15 spaces, expected 16
+store.py:192: [C0303(trailing-whitespace), ] Trailing whitespace
+store.py:1: [C0103(invalid-name), Value_Error] Class name "Value_Error" doesn't conform to PascalCase naming style
+store.py:1: [R0903(too-few-public-methods), Value_Error] Too few public methods (1/2)
+store.py:36: [W0102(dangerous-default-value), Store.__init__] Dangerous default value [] as argument
+store.py:57: [W0212(protected-access), Store.lt_lte_gt_gte_operations] Access to a protected member _operation of a client class
+store.py:58: [W0212(protected-access), Store.lt_lte_gt_gte_operations] Access to a protected member _field of a client class
+store.py:60: [W0212(protected-access), Store.lt_lte_gt_gte_operations] Access to a protected member _price of a client class
+store.py:60: [W0212(protected-access), Store.lt_lte_gt_gte_operations] Access to a protected member _value of a client class
+store.py:57: [R1702(too-many-nested-blocks), Store.lt_lte_gt_gte_operations] Too many nested blocks (4/2)
+store.py:63: [W0212(protected-access), Store.lt_lte_gt_gte_operations] Access to a protected member _operation of a client class
+store.py:64: [W0212(protected-access), Store.lt_lte_gt_gte_operations] Access to a protected member _field of a client class
+store.py:66: [W0212(protected-access), Store.lt_lte_gt_gte_operations] Access to a protected member _price of a client class
+store.py:66: [W0212(protected-access), Store.lt_lte_gt_gte_operations] Access to a protected member _value of a client class
+store.py:63: [R1702(too-many-nested-blocks), Store.lt_lte_gt_gte_operations] Too many nested blocks (4/2)
+store.py:69: [W0212(protected-access), Store.lt_lte_gt_gte_operations] Access to a protected member _operation of a client class
+store.py:70: [W0212(protected-access), Store.lt_lte_gt_gte_operations] Access to a protected member _field of a client class
+store.py:72: [W0212(protected-access), Store.lt_lte_gt_gte_operations] Access to a protected member _price of a client class
+store.py:72: [W0212(protected-access), Store.lt_lte_gt_gte_operations] Access to a protected member _value of a client class
+store.py:69: [R1702(too-many-nested-blocks), Store.lt_lte_gt_gte_operations] Too many nested blocks (4/2)
+store.py:75: [W0212(protected-access), Store.lt_lte_gt_gte_operations] Access to a protected member _operation of a client class
+store.py:76: [W0212(protected-access), Store.lt_lte_gt_gte_operations] Access to a protected member _field of a client class
+store.py:78: [W0212(protected-access), Store.lt_lte_gt_gte_operations] Access to a protected member _price of a client class
+store.py:78: [W0212(protected-access), Store.lt_lte_gt_gte_operations] Access to a protected member _value of a client class
+store.py:75: [R1702(too-many-nested-blocks), Store.lt_lte_gt_gte_operations] Too many nested blocks (4/2)
+store.py:55: [R0912(too-many-branches), Store.lt_lte_gt_gte_operations] Too many branches (16/12)
+store.py:85: [W0212(protected-access), Store.equal_to_operations] Access to a protected member _operation of a client class
+store.py:86: [W0212(protected-access), Store.equal_to_operations] Access to a protected member _field of a client class
+store.py:88: [W0212(protected-access), Store.equal_to_operations] Access to a protected member _value of a client class
+store.py:88: [W0212(protected-access), Store.equal_to_operations] Access to a protected member _name of a client class
+store.py:85: [R1702(too-many-nested-blocks), Store.equal_to_operations] Too many nested blocks (4/2)
+store.py:90: [W0212(protected-access), Store.equal_to_operations] Access to a protected member _field of a client class
+store.py:92: [W0212(protected-access), Store.equal_to_operations] Access to a protected member _value of a client class
+store.py:92: [W0212(protected-access), Store.equal_to_operations] Access to a protected member _price of a client class
+store.py:85: [R1702(too-many-nested-blocks), Store.equal_to_operations] Too many nested blocks (4/2)
+store.py:94: [W0212(protected-access), Store.equal_to_operations] Access to a protected member _field of a client class
+store.py:95: [W0212(protected-access), Store.equal_to_operations] Access to a protected member _value of a client class
+store.py:97: [W0212(protected-access), Store.equal_to_operations] Access to a protected member _category of a client class
+store.py:85: [R1702(too-many-nested-blocks), Store.equal_to_operations] Too many nested blocks (5/2)
+store.py:103: [W0212(protected-access), Store.in_operation] Access to a protected member _field of a client class
+store.py:104: [W0212(protected-access), Store.in_operation] Access to a protected member _value of a client class
+store.py:106: [W0212(protected-access), Store.in_operation] Access to a protected member _category of a client class
+store.py:103: [R1702(too-many-nested-blocks), Store.in_operation] Too many nested blocks (4/2)
+store.py:108: [W0212(protected-access), Store.in_operation] Access to a protected member _field of a client class
+store.py:109: [W0212(protected-access), Store.in_operation] Access to a protected member _value of a client class
+store.py:111: [W0212(protected-access), Store.in_operation] Access to a protected member _price of a client class
+store.py:108: [R1702(too-many-nested-blocks), Store.in_operation] Too many nested blocks (4/2)
+store.py:113: [W0212(protected-access), Store.in_operation] Access to a protected member _field of a client class
+store.py:114: [W0212(protected-access), Store.in_operation] Access to a protected member _value of a client class
+store.py:116: [W0212(protected-access), Store.in_operation] Access to a protected member _name of a client class
+store.py:113: [R1702(too-many-nested-blocks), Store.in_operation] Too many nested blocks (4/2)
+store.py:122: [W0212(protected-access), Store.starts_with_operation] Access to a protected member _field of a client class
+store.py:124: [W0212(protected-access), Store.starts_with_operation] Access to a protected member _name of a client class
+store.py:124: [W0212(protected-access), Store.starts_with_operation] Access to a protected member _value of a client class
+store.py:122: [R1702(too-many-nested-blocks), Store.starts_with_operation] Too many nested blocks (3/2)
+store.py:126: [W0212(protected-access), Store.starts_with_operation] Access to a protected member _field of a client class
+store.py:128: [W0212(protected-access), Store.starts_with_operation] Access to a protected member _category of a client class
+store.py:128: [W0212(protected-access), Store.starts_with_operation] Access to a protected member _value of a client class
+store.py:126: [R1702(too-many-nested-blocks), Store.starts_with_operation] Too many nested blocks (3/2)
+store.py:130: [W0212(protected-access), Store.starts_with_operation] Access to a protected member _field of a client class
+store.py:132: [W0212(protected-access), Store.starts_with_operation] Access to a protected member _name of a client class
+store.py:132: [W0212(protected-access), Store.starts_with_operation] Access to a protected member _value of a client class
+store.py:130: [R1702(too-many-nested-blocks), Store.starts_with_operation] Too many nested blocks (3/2)
+store.py:139: [W0212(protected-access), Store.ends_with_opreation] Access to a protected member _field of a client class
+store.py:141: [W0212(protected-access), Store.ends_with_opreation] Access to a protected member _name of a client class
+store.py:141: [W0212(protected-access), Store.ends_with_opreation] Access to a protected member _value of a client class
+store.py:139: [R1702(too-many-nested-blocks), Store.ends_with_opreation] Too many nested blocks (3/2)
+store.py:143: [W0212(protected-access), Store.ends_with_opreation] Access to a protected member _field of a client class
+store.py:145: [W0212(protected-access), Store.ends_with_opreation] Access to a protected member _category of a client class
+store.py:145: [W0212(protected-access), Store.ends_with_opreation] Access to a protected member _value of a client class
+store.py:143: [R1702(too-many-nested-blocks), Store.ends_with_opreation] Too many nested blocks (3/2)
+store.py:147: [W0212(protected-access), Store.ends_with_opreation] Access to a protected member _field of a client class
+store.py:149: [W0212(protected-access), Store.ends_with_opreation] Access to a protected member _name of a client class
+store.py:149: [W0212(protected-access), Store.ends_with_opreation] Access to a protected member _value of a client class
+store.py:147: [R1702(too-many-nested-blocks), Store.ends_with_opreation] Too many nested blocks (3/2)
+store.py:156: [W0212(protected-access), Store.contains_operation] Access to a protected member _field of a client class
+store.py:158: [W0212(protected-access), Store.contains_operation] Access to a protected member _value of a client class
+store.py:158: [W0212(protected-access), Store.contains_operation] Access to a protected member _name of a client class
+store.py:156: [R1702(too-many-nested-blocks), Store.contains_operation] Too many nested blocks (3/2)
+store.py:160: [W0212(protected-access), Store.contains_operation] Access to a protected member _field of a client class
+store.py:162: [W0212(protected-access), Store.contains_operation] Access to a protected member _value of a client class
+store.py:162: [W0212(protected-access), Store.contains_operation] Access to a protected member _category of a client class
+store.py:160: [R1702(too-many-nested-blocks), Store.contains_operation] Too many nested blocks (3/2)
+store.py:164: [W0212(protected-access), Store.contains_operation] Access to a protected member _field of a client class
+store.py:166: [W0212(protected-access), Store.contains_operation] Access to a protected member _value of a client class
+store.py:166: [W0212(protected-access), Store.contains_operation] Access to a protected member _name of a client class
+store.py:164: [R1702(too-many-nested-blocks), Store.contains_operation] Too many nested blocks (3/2)
+store.py:172: [W0212(protected-access), Store.filter] Access to a protected member _operation of a client class
+store.py:174: [W0212(protected-access), Store.filter] Access to a protected member _operation of a client class
+store.py:176: [W0212(protected-access), Store.filter] Access to a protected member _operation of a client class
+store.py:178: [W0212(protected-access), Store.filter] Access to a protected member _operation of a client class
+store.py:180: [W0212(protected-access), Store.filter] Access to a protected member _operation of a client class
+store.py:182: [W0212(protected-access), Store.filter] Access to a protected member _operation of a client class
+store.py:186: [E1111(assignment-from-no-return), Store.exclude] Assigning result of a function call, where the function has no return
+store.py:189: [W0212(protected-access), Store.exclude] Access to a protected member _list_of_items of a client class
+
+-------------------------------------------------------------------
+Your code has been rated at 3.69/10 (previous run: 10.00/10, -6.31)
+

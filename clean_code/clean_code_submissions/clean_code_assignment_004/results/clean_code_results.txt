@@ -1,0 +1,1084 @@
+************* Module fb_post.utils
+fb_post/utils/__init__.py:8: [C0301(line-too-long), ] Line too long (80/79)
+fb_post/utils/__init__.py:25: [C0326(bad-whitespace), ] Exactly one space required around assignment
+sb=['get_total_reaction_count',
+  ^
+fb_post/utils/__init__.py:26: [C0330(bad-continuation), ] Wrong continued indentation (remove 7 spaces).
+           'get_reaction_metrics',
+    |      ^
+fb_post/utils/__init__.py:27: [C0330(bad-continuation), ] Wrong continued indentation (remove 7 spaces).
+           'delete_post',
+    |      ^
+fb_post/utils/__init__.py:28: [C0330(bad-continuation), ] Wrong continued indentation (remove 7 spaces).
+           'get_posts_with_more_positive_reactions',
+    |      ^
+fb_post/utils/__init__.py:29: [C0330(bad-continuation), ] Wrong continued indentation (remove 7 spaces).
+           'get_posts_reacted_by_user',
+    |      ^
+fb_post/utils/__init__.py:30: [C0330(bad-continuation), ] Wrong continued indentation (remove 7 spaces).
+           'get_reactions_to_post',
+    |      ^
+fb_post/utils/__init__.py:31: [C0330(bad-continuation), ] Wrong continued indentation.
+           ]   ||      ^
+fb_post/utils/__init__.py:31: [C0304(missing-final-newline), ] Final newline missing
+fb_post/utils/__init__.py:10: [W0105(pointless-string-statement), ] String statement has no effect
+fb_post/utils/__init__.py:11: [C0413(wrong-import-position), ] Import "from .react_to_comment import react_to_comment" should be placed at the top of the module
+fb_post/utils/__init__.py:12: [C0413(wrong-import-position), ] Import "from .react_to_post import react_to_post" should be placed at the top of the module
+fb_post/utils/__init__.py:13: [C0413(wrong-import-position), ] Import "from .reply_to_comment import reply_to_comment" should be placed at the top of the module
+fb_post/utils/__init__.py:25: [C0103(invalid-name), ] Constant name "sb" doesn't conform to UPPER_CASE naming style
+************* Module fb_post.utils.get_posts_with_more_positive_reactions
+fb_post/utils/get_posts_with_more_positive_reactions.py:61: [C0330(bad-continuation), ] Wrong hanging indentation.
+                                )\
+                        |   |   ^
+fb_post/utils/get_posts_with_more_positive_reactions.py:64: [C0305(trailing-newlines), ] Trailing newlines
+************* Module fb_post.utils.get_replies_for_comment
+fb_post/utils/get_replies_for_comment.py:27: [W0511(fixme), ] TODO: list comprehension
+fb_post/utils/get_replies_for_comment.py:9: [E0602(undefined-variable), get_reply_dict] Undefined variable 'get_date_time_as_string'
+fb_post/utils/get_replies_for_comment.py:3: [W0611(unused-import), ] Unused get_date_time imported from utils_dicts
+************* Module fb_post.utils.delete_post
+fb_post/utils/delete_post.py:15: [W0511(fixme), ] TODO: variable naming
+fb_post/utils/delete_post.py:15: [C0301(line-too-long), ] Line too long (89/79)
+fb_post/utils/delete_post.py:16: [C0303(trailing-whitespace), ] Trailing whitespace
+fb_post/utils/delete_post.py:17: [C0303(trailing-whitespace), ] Trailing whitespace
+fb_post/utils/delete_post.py:2: [W0406(import-self), ] Module import itself
+fb_post/utils/delete_post.py:3: [E0401(import-error), ] Unable to import 'fb_post.utils.utils_checks'
+fb_post/utils/delete_post.py:10: [E0102(function-redefined), delete_post] function already defined line 2
+fb_post/utils/delete_post.py:2: [W0611(unused-import), ] Unused delete_post imported from fb_post.utils
+************* Module fb_post.utils.other_functions
+fb_post/utils/other_functions.py:140: [C0304(missing-final-newline), ] Final newline missing
+************* Module fb_post.utils.get_reaction_metrics
+fb_post/utils/get_reaction_metrics.py:15: [W0511(fixme), ] TODO: code formatting
+fb_post/utils/get_reaction_metrics.py:24: [W0511(fixme), ] TODO: use dict
+fb_post/utils/get_reaction_metrics.py:5: [E0401(import-error), ] Unable to import 'fb_post.utils.utils_checks'
+fb_post/utils/get_reaction_metrics.py:1: [W0611(unused-import), ] Unused timezone imported from django.utils
+fb_post/utils/get_reaction_metrics.py:2: [W0611(unused-import), ] Unused import pytest
+fb_post/utils/get_reaction_metrics.py:3: [C0412(ungrouped-imports), ] Imports from package django are not grouped
+************* Module fb_post.utils.reply_to_comment
+fb_post/utils/reply_to_comment.py:35: [W0511(fixme), ] TODO: Duplication of code
+************* Module fb_post.utils.create_comment
+fb_post/utils/create_comment.py:14: [W0511(fixme), ] TODO: is_valid_post_id- done
+************* Module fb_post.utils.react_to_post
+fb_post/utils/react_to_post.py:70: [W0511(fixme), ] TODO: is_valid_reaction_type
+fb_post/utils/react_to_post.py:15: [E0102(function-redefined), is_invalid_reaction_type] function already defined line 3
+fb_post/utils/react_to_post.py:5: [C0411(wrong-import-order), ] first party import "from fb_post.exceptions import InvalidReactionTypeException" should be placed before "from .react_to_comment import is_invalid_reaction_type"
+fb_post/utils/react_to_post.py:6: [C0411(wrong-import-order), ] first party import "from fb_post.constants import ReactionChoices" should be placed before "from .react_to_comment import is_invalid_reaction_type"
+************* Module fb_post.utils.get_reactions_to_post
+fb_post/utils/get_reactions_to_post.py:25: [W0511(fixme), ] TODO: list comprehension
+fb_post/utils/get_reactions_to_post.py:23: [E0602(undefined-variable), get_reactions_to_post] Undefined variable 'reactions_objs'
+************* Module fb_post.utils.get_post_details_dict
+fb_post/utils/get_post_details_dict.py:5: [W0511(fixme), ] TODO: change functions to separate module
+fb_post/utils/get_post_details_dict.py:12: [C0301(line-too-long), ] Line too long (81/79)
+fb_post/utils/get_post_details_dict.py:22: [C0326(bad-whitespace), ] Exactly one space required after comma
+            comment,reply)
+                   ^
+fb_post/utils/get_post_details_dict.py:27: [C0326(bad-whitespace), ] Exactly one space required after comma
+def is_reply_for_given_comment(comment,reply):
+                                      ^
+fb_post/utils/get_post_details_dict.py:33: [C0303(trailing-whitespace), ] Trailing whitespace
+************* Module fb_post.utils.utils_validators
+fb_post/utils/utils_validators.py:26: [C0303(trailing-whitespace), ] Trailing whitespace
+fb_post/utils/utils_validators.py:44: [W0311(bad-indentation), ] Bad indentation. Found 1 spaces, expected 4
+fb_post/utils/utils_validators.py:1: [W0401(wildcard-import), ] Wildcard import fb_post.models
+fb_post/utils/utils_validators.py:2: [W0401(wildcard-import), ] Wildcard import fb_post.exceptions
+fb_post/utils/utils_validators.py:1: [W0614(unused-wildcard-import), ] Unused import REACTION_CHOICES from wildcard import
+fb_post/utils/utils_validators.py:1: [W0614(unused-wildcard-import), ] Unused import Reaction from wildcard import
+fb_post/utils/utils_validators.py:1: [W0614(unused-wildcard-import), ] Unused import models from wildcard import
+fb_post/utils/utils_validators.py:2: [W0614(unused-wildcard-import), ] Unused import Error from wildcard import
+fb_post/utils/utils_validators.py:2: [W0614(unused-wildcard-import), ] Unused import InvalidReplyContent from wildcard import
+fb_post/utils/utils_validators.py:2: [W0614(unused-wildcard-import), ] Unused import UserCannotDeletePostException from wildcard import
+fb_post/utils/utils_validators.py:2: [W0614(unused-wildcard-import), ] Unused import InvalidReactionTypeException from wildcard import
+************* Module fb_post.utils.react_to_comment
+fb_post/utils/react_to_comment.py:53: [W0511(fixme), ] TODO: remove indexing
+fb_post/utils/react_to_comment.py:53: [C0301(line-too-long), ] Line too long (81/79)
+************* Module fb_post/constants
+fb_post/constants.py:15: [C0326(bad-whitespace), ] Exactly one space required around assignment
+users_list=[
+          ^
+fb_post/constants.py:16: [C0326(bad-whitespace), ] Exactly one space required after comma
+        {'name':'sulthan',      'profile_pic':'sulthan_babu/profile_pic'},
+                         ^
+fb_post/constants.py:17: [C0326(bad-whitespace), ] Exactly one space required after comma
+        {'name':'randy orton',  'profile_pic':'randyorton/profile_pic'},
+                             ^
+fb_post/constants.py:18: [C0326(bad-whitespace), ] Exactly one space required after comma
+        {'name':'elon musk',     'profile_pic':'elonmusk/profile_pic'},
+                           ^
+fb_post/constants.py:19: [C0326(bad-whitespace), ] Exactly one space required after comma
+        {'name':'sravani',      'profile_pic':'sravani/profile_pic'},
+                         ^
+fb_post/constants.py:20: [C0326(bad-whitespace), ] Exactly one space required after comma
+        {'name':'che quevara',  'profile_pic':'chequeara/profile_pic'},
+                             ^
+fb_post/constants.py:21: [C0326(bad-whitespace), ] Exactly one space required after comma
+        {'name':'shajahan',     'profile_pic':'shajahan/profile_pic'}
+                          ^
+fb_post/constants.py:24: [C0326(bad-whitespace), ] Exactly one space required around assignment
+posts_list=[
+          ^
+fb_post/constants.py:35: [C0303(trailing-whitespace), ] Trailing whitespace
+fb_post/constants.py:38: [C0326(bad-whitespace), ] Exactly one space required around assignment
+comments_list=[
+             ^
+fb_post/constants.py:39: [C0301(line-too-long), ] Line too long (95/79)
+fb_post/constants.py:39: [C0326(bad-whitespace), ] Exactly one space required after comma
+        {'commented_by_id':3,'post_id':1,'content':'this is comment','parent_comment_id':None},
+                            ^
+fb_post/constants.py:39: [C0326(bad-whitespace), ] Exactly one space required after comma
+        {'commented_by_id':3,'post_id':1,'content':'this is comment','parent_comment_id':None},
+                                        ^
+fb_post/constants.py:39: [C0326(bad-whitespace), ] Exactly one space required after comma
+        {'commented_by_id':3,'post_id':1,'content':'this is comment','parent_comment_id':None},
+                                                                    ^
+fb_post/constants.py:40: [C0301(line-too-long), ] Line too long (95/79)
+fb_post/constants.py:40: [C0326(bad-whitespace), ] Exactly one space required after comma
+        {'commented_by_id':1,'post_id':1,'content':'this is comment','parent_comment_id':None},
+                            ^
+fb_post/constants.py:40: [C0326(bad-whitespace), ] Exactly one space required after comma
+        {'commented_by_id':1,'post_id':1,'content':'this is comment','parent_comment_id':None},
+                                        ^
+fb_post/constants.py:40: [C0326(bad-whitespace), ] Exactly one space required after comma
+        {'commented_by_id':1,'post_id':1,'content':'this is comment','parent_comment_id':None},
+                                                                    ^
+fb_post/constants.py:41: [C0301(line-too-long), ] Line too long (92/79)
+fb_post/constants.py:41: [C0326(bad-whitespace), ] Exactly one space required after comma
+        {'commented_by_id':3,'post_id':1,'content':'this is comment','parent_comment_id':2},
+                            ^
+fb_post/constants.py:41: [C0326(bad-whitespace), ] Exactly one space required after comma
+        {'commented_by_id':3,'post_id':1,'content':'this is comment','parent_comment_id':2},
+                                        ^
+fb_post/constants.py:41: [C0326(bad-whitespace), ] Exactly one space required after comma
+        {'commented_by_id':3,'post_id':1,'content':'this is comment','parent_comment_id':2},
+                                                                    ^
+fb_post/constants.py:42: [C0301(line-too-long), ] Line too long (92/79)
+fb_post/constants.py:42: [C0326(bad-whitespace), ] Exactly one space required after comma
+        {'commented_by_id':4,'post_id':1,'content':'this is comment','parent_comment_id':1},
+                            ^
+fb_post/constants.py:42: [C0326(bad-whitespace), ] Exactly one space required after comma
+        {'commented_by_id':4,'post_id':1,'content':'this is comment','parent_comment_id':1},
+                                        ^
+fb_post/constants.py:42: [C0326(bad-whitespace), ] Exactly one space required after comma
+        {'commented_by_id':4,'post_id':1,'content':'this is comment','parent_comment_id':1},
+                                                                    ^
+fb_post/constants.py:43: [C0301(line-too-long), ] Line too long (92/79)
+fb_post/constants.py:43: [C0326(bad-whitespace), ] Exactly one space required after comma
+        {'commented_by_id':5,'post_id':3,'content':'this is comment','parent_comment_id':1},
+                            ^
+fb_post/constants.py:43: [C0326(bad-whitespace), ] Exactly one space required after comma
+        {'commented_by_id':5,'post_id':3,'content':'this is comment','parent_comment_id':1},
+                                        ^
+fb_post/constants.py:43: [C0326(bad-whitespace), ] Exactly one space required after comma
+        {'commented_by_id':5,'post_id':3,'content':'this is comment','parent_comment_id':1},
+                                                                    ^
+fb_post/constants.py:44: [C0301(line-too-long), ] Line too long (95/79)
+fb_post/constants.py:44: [C0326(bad-whitespace), ] Exactly one space required after comma
+        {'commented_by_id':2,'post_id':3,'content':'this is comment','parent_comment_id':None},
+                            ^
+fb_post/constants.py:44: [C0326(bad-whitespace), ] Exactly one space required after comma
+        {'commented_by_id':2,'post_id':3,'content':'this is comment','parent_comment_id':None},
+                                        ^
+fb_post/constants.py:44: [C0326(bad-whitespace), ] Exactly one space required after comma
+        {'commented_by_id':2,'post_id':3,'content':'this is comment','parent_comment_id':None},
+                                                                    ^
+fb_post/constants.py:45: [C0301(line-too-long), ] Line too long (92/79)
+fb_post/constants.py:45: [C0326(bad-whitespace), ] Exactly one space required after comma
+        {'commented_by_id':3,'post_id':4,'content':'this is comment','parent_comment_id':5},
+                            ^
+fb_post/constants.py:45: [C0326(bad-whitespace), ] Exactly one space required after comma
+        {'commented_by_id':3,'post_id':4,'content':'this is comment','parent_comment_id':5},
+                                        ^
+fb_post/constants.py:45: [C0326(bad-whitespace), ] Exactly one space required after comma
+        {'commented_by_id':3,'post_id':4,'content':'this is comment','parent_comment_id':5},
+                                                                    ^
+fb_post/constants.py:46: [C0301(line-too-long), ] Line too long (95/79)
+fb_post/constants.py:46: [C0326(bad-whitespace), ] Exactly one space required after comma
+        {'commented_by_id':5,'post_id':2,'content':'this is comment','parent_comment_id':None},
+                            ^
+fb_post/constants.py:46: [C0326(bad-whitespace), ] Exactly one space required after comma
+        {'commented_by_id':5,'post_id':2,'content':'this is comment','parent_comment_id':None},
+                                        ^
+fb_post/constants.py:46: [C0326(bad-whitespace), ] Exactly one space required after comma
+        {'commented_by_id':5,'post_id':2,'content':'this is comment','parent_comment_id':None},
+                                                                    ^
+fb_post/constants.py:47: [C0301(line-too-long), ] Line too long (91/79)
+fb_post/constants.py:47: [C0326(bad-whitespace), ] Exactly one space required after comma
+        {'commented_by_id':5,'post_id':2,'content':'this is comment','parent_comment_id':8}
+                            ^
+fb_post/constants.py:47: [C0326(bad-whitespace), ] Exactly one space required after comma
+        {'commented_by_id':5,'post_id':2,'content':'this is comment','parent_comment_id':8}
+                                        ^
+fb_post/constants.py:47: [C0326(bad-whitespace), ] Exactly one space required after comma
+        {'commented_by_id':5,'post_id':2,'content':'this is comment','parent_comment_id':8}
+                                                                    ^
+fb_post/constants.py:49: [C0303(trailing-whitespace), ] Trailing whitespace
+fb_post/constants.py:50: [C0326(bad-whitespace), ] Exactly one space required around assignment
+reactions_list=[
+              ^
+fb_post/constants.py:51: [C0301(line-too-long), ] Line too long (91/79)
+fb_post/constants.py:51: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':1,'post_id':1,'comment_id':None,'reaction':ReactionChoices.WOW.value},
+                      ^
+fb_post/constants.py:51: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':1,'post_id':1,'comment_id':None,'reaction':ReactionChoices.WOW.value},
+                                  ^
+fb_post/constants.py:51: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':1,'post_id':1,'comment_id':None,'reaction':ReactionChoices.WOW.value},
+                                                    ^
+fb_post/constants.py:52: [C0301(line-too-long), ] Line too long (91/79)
+fb_post/constants.py:52: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':5,'post_id':1,'comment_id':None,'reaction':ReactionChoices.WOW.value},
+                      ^
+fb_post/constants.py:52: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':5,'post_id':1,'comment_id':None,'reaction':ReactionChoices.WOW.value},
+                                  ^
+fb_post/constants.py:52: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':5,'post_id':1,'comment_id':None,'reaction':ReactionChoices.WOW.value},
+                                                    ^
+fb_post/constants.py:53: [C0301(line-too-long), ] Line too long (92/79)
+fb_post/constants.py:53: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':3,'post_id':1,'comment_id':None,'reaction':ReactionChoices.LOVE.value},
+                      ^
+fb_post/constants.py:53: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':3,'post_id':1,'comment_id':None,'reaction':ReactionChoices.LOVE.value},
+                                  ^
+fb_post/constants.py:53: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':3,'post_id':1,'comment_id':None,'reaction':ReactionChoices.LOVE.value},
+                                                    ^
+fb_post/constants.py:54: [C0301(line-too-long), ] Line too long (91/79)
+fb_post/constants.py:54: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':4,'post_id':1,'comment_id':None,'reaction':ReactionChoices.SAD.value},
+                      ^
+fb_post/constants.py:54: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':4,'post_id':1,'comment_id':None,'reaction':ReactionChoices.SAD.value},
+                                  ^
+fb_post/constants.py:54: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':4,'post_id':1,'comment_id':None,'reaction':ReactionChoices.SAD.value},
+                                                    ^
+fb_post/constants.py:55: [C0303(trailing-whitespace), ] Trailing whitespace
+fb_post/constants.py:56: [C0301(line-too-long), ] Line too long (93/79)
+fb_post/constants.py:56: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':3,'post_id':2,'comment_id':None,'reaction':ReactionChoices.ANGRY.value},
+                      ^
+fb_post/constants.py:56: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':3,'post_id':2,'comment_id':None,'reaction':ReactionChoices.ANGRY.value},
+                                  ^
+fb_post/constants.py:56: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':3,'post_id':2,'comment_id':None,'reaction':ReactionChoices.ANGRY.value},
+                                                    ^
+fb_post/constants.py:57: [C0301(line-too-long), ] Line too long (91/79)
+fb_post/constants.py:57: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':4,'post_id':3,'comment_id':None,'reaction':ReactionChoices.SAD.value},
+                      ^
+fb_post/constants.py:57: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':4,'post_id':3,'comment_id':None,'reaction':ReactionChoices.SAD.value},
+                                  ^
+fb_post/constants.py:57: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':4,'post_id':3,'comment_id':None,'reaction':ReactionChoices.SAD.value},
+                                                    ^
+fb_post/constants.py:58: [C0303(trailing-whitespace), ] Trailing whitespace
+fb_post/constants.py:59: [C0301(line-too-long), ] Line too long (91/79)
+fb_post/constants.py:59: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':5,'post_id':4,'comment_id':None,'reaction':ReactionChoices.WOW.value},
+                      ^
+fb_post/constants.py:59: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':5,'post_id':4,'comment_id':None,'reaction':ReactionChoices.WOW.value},
+                                  ^
+fb_post/constants.py:59: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':5,'post_id':4,'comment_id':None,'reaction':ReactionChoices.WOW.value},
+                                                    ^
+fb_post/constants.py:60: [C0301(line-too-long), ] Line too long (91/79)
+fb_post/constants.py:60: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':5,'post_id':4,'comment_id':None,'reaction':ReactionChoices.WOW.value},
+                      ^
+fb_post/constants.py:60: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':5,'post_id':4,'comment_id':None,'reaction':ReactionChoices.WOW.value},
+                                  ^
+fb_post/constants.py:60: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':5,'post_id':4,'comment_id':None,'reaction':ReactionChoices.WOW.value},
+                                                    ^
+fb_post/constants.py:61: [C0303(trailing-whitespace), ] Trailing whitespace
+fb_post/constants.py:62: [C0301(line-too-long), ] Line too long (97/79)
+fb_post/constants.py:62: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':3,'post_id':7,'comment_id':None,'reaction':ReactionChoices.THUMBS_UP.value},
+                      ^
+fb_post/constants.py:62: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':3,'post_id':7,'comment_id':None,'reaction':ReactionChoices.THUMBS_UP.value},
+                                  ^
+fb_post/constants.py:62: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':3,'post_id':7,'comment_id':None,'reaction':ReactionChoices.THUMBS_UP.value},
+                                                    ^
+fb_post/constants.py:63: [C0303(trailing-whitespace), ] Trailing whitespace
+fb_post/constants.py:64: [C0301(line-too-long), ] Line too long (92/79)
+fb_post/constants.py:64: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':6,'post_id':9,'comment_id':None,'reaction':ReactionChoices.HAHA.value},
+                      ^
+fb_post/constants.py:64: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':6,'post_id':9,'comment_id':None,'reaction':ReactionChoices.HAHA.value},
+                                  ^
+fb_post/constants.py:64: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':6,'post_id':9,'comment_id':None,'reaction':ReactionChoices.HAHA.value},
+                                                    ^
+fb_post/constants.py:65: [C0301(line-too-long), ] Line too long (99/79)
+fb_post/constants.py:65: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':4,'post_id':9,'comment_id':None,'reaction':ReactionChoices.THUMBS_DOWN.value},
+                      ^
+fb_post/constants.py:65: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':4,'post_id':9,'comment_id':None,'reaction':ReactionChoices.THUMBS_DOWN.value},
+                                  ^
+fb_post/constants.py:65: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':4,'post_id':9,'comment_id':None,'reaction':ReactionChoices.THUMBS_DOWN.value},
+                                                    ^
+fb_post/constants.py:66: [C0303(trailing-whitespace), ] Trailing whitespace
+fb_post/constants.py:67: [C0303(trailing-whitespace), ] Trailing whitespace
+fb_post/constants.py:68: [C0303(trailing-whitespace), ] Trailing whitespace
+fb_post/constants.py:69: [C0301(line-too-long), ] Line too long (91/79)
+fb_post/constants.py:69: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':1,'post_id':None,'comment_id':1,'reaction':ReactionChoices.WOW.value},
+                      ^
+fb_post/constants.py:69: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':1,'post_id':None,'comment_id':1,'reaction':ReactionChoices.WOW.value},
+                                     ^
+fb_post/constants.py:69: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':1,'post_id':None,'comment_id':1,'reaction':ReactionChoices.WOW.value},
+                                                    ^
+fb_post/constants.py:70: [C0301(line-too-long), ] Line too long (92/79)
+fb_post/constants.py:70: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':5,'post_id':None,'comment_id':1,'reaction':ReactionChoices.LOVE.value},
+                      ^
+fb_post/constants.py:70: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':5,'post_id':None,'comment_id':1,'reaction':ReactionChoices.LOVE.value},
+                                     ^
+fb_post/constants.py:70: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':5,'post_id':None,'comment_id':1,'reaction':ReactionChoices.LOVE.value},
+                                                    ^
+fb_post/constants.py:71: [C0301(line-too-long), ] Line too long (92/79)
+fb_post/constants.py:71: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':3,'post_id':None,'comment_id':1,'reaction':ReactionChoices.LOVE.value},
+                      ^
+fb_post/constants.py:71: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':3,'post_id':None,'comment_id':1,'reaction':ReactionChoices.LOVE.value},
+                                     ^
+fb_post/constants.py:71: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':3,'post_id':None,'comment_id':1,'reaction':ReactionChoices.LOVE.value},
+                                                    ^
+fb_post/constants.py:72: [C0301(line-too-long), ] Line too long (91/79)
+fb_post/constants.py:72: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':4,'post_id':None,'comment_id':1,'reaction':ReactionChoices.SAD.value},
+                      ^
+fb_post/constants.py:72: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':4,'post_id':None,'comment_id':1,'reaction':ReactionChoices.SAD.value},
+                                     ^
+fb_post/constants.py:72: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':4,'post_id':None,'comment_id':1,'reaction':ReactionChoices.SAD.value},
+                                                    ^
+fb_post/constants.py:73: [C0303(trailing-whitespace), ] Trailing whitespace
+fb_post/constants.py:74: [C0301(line-too-long), ] Line too long (91/79)
+fb_post/constants.py:74: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':3,'post_id':None,'comment_id':2,'reaction':ReactionChoices.WOW.value},
+                      ^
+fb_post/constants.py:74: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':3,'post_id':None,'comment_id':2,'reaction':ReactionChoices.WOW.value},
+                                     ^
+fb_post/constants.py:74: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':3,'post_id':None,'comment_id':2,'reaction':ReactionChoices.WOW.value},
+                                                    ^
+fb_post/constants.py:75: [C0301(line-too-long), ] Line too long (93/79)
+fb_post/constants.py:75: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':4,'post_id':None,'comment_id':3,'reaction':ReactionChoices.ANGRY.value},
+                      ^
+fb_post/constants.py:75: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':4,'post_id':None,'comment_id':3,'reaction':ReactionChoices.ANGRY.value},
+                                     ^
+fb_post/constants.py:75: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':4,'post_id':None,'comment_id':3,'reaction':ReactionChoices.ANGRY.value},
+                                                    ^
+fb_post/constants.py:76: [C0301(line-too-long), ] Line too long (91/79)
+fb_post/constants.py:76: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':5,'post_id':None,'comment_id':4,'reaction':ReactionChoices.LIT.value},
+                      ^
+fb_post/constants.py:76: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':5,'post_id':None,'comment_id':4,'reaction':ReactionChoices.LIT.value},
+                                     ^
+fb_post/constants.py:76: [C0326(bad-whitespace), ] Exactly one space required after comma
+    {'reacted_by_id':5,'post_id':None,'comment_id':4,'reaction':ReactionChoices.LIT.value},
+                                                    ^
+fb_post/constants.py:82: [C0330(bad-continuation), ] Wrong hanging indentation (remove 11 spaces).
+                   "post_id": 1,
+        |          ^
+fb_post/constants.py:83: [C0330(bad-continuation), ] Wrong hanging indentation (remove 11 spaces).
+                   "posted_by": {
+        |          ^
+fb_post/constants.py:84: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                      "name": "sulthan",
+                      ^|
+fb_post/constants.py:85: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                      "user_id": 1,
+                      ^|
+fb_post/constants.py:86: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                      "profile_pic": "sulthan_babu/profile_pic"
+                      ^|
+fb_post/constants.py:88: [C0330(bad-continuation), ] Wrong hanging indentation (remove 11 spaces).
+                   "posted_at": "2012-01-14 00:00:00.000000",
+        |          ^
+fb_post/constants.py:89: [C0330(bad-continuation), ] Wrong hanging indentation (remove 11 spaces).
+                   "post_content": "empty",
+        |          ^
+fb_post/constants.py:90: [C0330(bad-continuation), ] Wrong hanging indentation (remove 11 spaces).
+                   "reactions": {
+        |          ^
+fb_post/constants.py:91: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                      "count": 4,
+                      ^|
+fb_post/constants.py:92: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                      "type": [
+                      ^|
+fb_post/constants.py:93: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                         "LOVE",
+                         ^|
+fb_post/constants.py:94: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                         "SAD",
+                         ^|
+fb_post/constants.py:95: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                         "WOW"
+                         ^|
+fb_post/constants.py:98: [C0330(bad-continuation), ] Wrong hanging indentation (remove 11 spaces).
+                   "comments": [
+        |          ^
+fb_post/constants.py:99: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                      {
+                      ^|
+fb_post/constants.py:100: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                         "comment_id": 1,
+                         ^|
+fb_post/constants.py:101: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                         "commenter": {
+                         ^|
+fb_post/constants.py:102: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                            "user_id": 3,
+                            ^|
+fb_post/constants.py:103: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                            "name": "elon musk",
+                            ^|
+fb_post/constants.py:104: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                            "profile_pic": "elonmusk/profile_pic"
+                            ^|
+fb_post/constants.py:106: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                         "commented_at": "2012-01-14 00:00:00.000000",
+                         ^|
+fb_post/constants.py:107: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                         "comment_content": "this is comment",
+                         ^|
+fb_post/constants.py:108: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                         "reactions": {
+                         ^|
+fb_post/constants.py:109: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                            "count": 4,
+                            ^|
+fb_post/constants.py:110: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                            "type": [
+                            ^|
+fb_post/constants.py:111: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                               "LOVE",
+                               ^|
+fb_post/constants.py:112: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                               "SAD",
+                               ^|
+fb_post/constants.py:113: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                               "WOW"
+                               ^|
+fb_post/constants.py:116: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                         "replies_count": 1,
+                         ^|
+fb_post/constants.py:117: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                         "replies": [
+                         ^|
+fb_post/constants.py:118: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                            {
+                            ^|
+fb_post/constants.py:119: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                               "comment_id": 4,
+                               ^|
+fb_post/constants.py:120: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                               "commenter": {
+                               ^|
+fb_post/constants.py:121: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                                  "user_id": 4,
+                                  ^|
+fb_post/constants.py:122: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                                  "name": "sravani",
+                                  ^|
+fb_post/constants.py:123: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                                  "profile_pic": "sravani/profile_pic"
+                                  ^|
+fb_post/constants.py:125: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                               "commented_at": "2012-01-14 00:00:00.000000",
+                               ^|
+fb_post/constants.py:126: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                               "comment_content": "this is comment",
+                               ^|
+fb_post/constants.py:127: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                               "reactions": {
+                               ^|
+fb_post/constants.py:128: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                                  "count": 1,
+                                  ^|
+fb_post/constants.py:129: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                                  "type": [
+                                  ^|
+fb_post/constants.py:130: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                                     "LIT"
+                                     ^|
+fb_post/constants.py:136: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                      {
+                      ^|
+fb_post/constants.py:137: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                         "comment_id": 2,
+                         ^|
+fb_post/constants.py:138: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                         "commenter": {
+                         ^|
+fb_post/constants.py:139: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                            "user_id": 1,
+                            ^|
+fb_post/constants.py:140: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                            "name": "sulthan",
+                            ^|
+fb_post/constants.py:141: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                            "profile_pic": "sulthan_babu/profile_pic"
+                            ^|
+fb_post/constants.py:143: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                         "commented_at": "2012-01-14 00:00:00.000000",
+                         ^|
+fb_post/constants.py:144: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                         "comment_content": "this is comment",
+                         ^|
+fb_post/constants.py:145: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                         "reactions": {
+                         ^|
+fb_post/constants.py:146: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                            "count": 1,
+                            ^|
+fb_post/constants.py:147: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                            "type": [
+                            ^|
+fb_post/constants.py:148: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                               "WOW"
+                               ^|
+fb_post/constants.py:151: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                         "replies_count": 1,
+                         ^|
+fb_post/constants.py:152: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                         "replies": [
+                         ^|
+fb_post/constants.py:153: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                            {
+                            ^|
+fb_post/constants.py:154: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                               "comment_id": 3,
+                               ^|
+fb_post/constants.py:155: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                               "commenter": {
+                               ^|
+fb_post/constants.py:156: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                                  "user_id": 3,
+                                  ^|
+fb_post/constants.py:157: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                                  "name": "elon musk",
+                                  ^|
+fb_post/constants.py:158: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                                  "profile_pic": "elonmusk/profile_pic"
+                                  ^|
+fb_post/constants.py:160: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                               "commented_at": "2012-01-14 00:00:00.000000",
+                               ^|
+fb_post/constants.py:161: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                               "comment_content": "this is comment",
+                               ^|
+fb_post/constants.py:162: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                               "reactions": {
+                               ^|
+fb_post/constants.py:163: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                                  "count": 1,
+                                  ^|
+fb_post/constants.py:164: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                                  "type": [
+                                  ^|
+fb_post/constants.py:165: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                                     "ANGRY"
+                                     ^|
+fb_post/constants.py:172: [C0330(bad-continuation), ] Wrong hanging indentation (remove 11 spaces).
+                   "comments_count": 2
+        |          ^
+fb_post/constants.py:175: [C0330(bad-continuation), ] Wrong hanging indentation (remove 7 spaces).
+               {
+        |      ^
+fb_post/constants.py:176: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                  "post_id": 1,
+                  ^|
+fb_post/constants.py:177: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                  "posted_by": {
+                  ^|
+fb_post/constants.py:178: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                     "name": "sulthan",
+                     ^|
+fb_post/constants.py:179: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                     "user_id": 1,
+                     ^|
+fb_post/constants.py:180: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                     "profile_pic": "sulthan_babu/profile_pic"
+                     ^|
+fb_post/constants.py:182: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                  "posted_at": "2012-01-14 00:00:00.000000",
+                  ^|
+fb_post/constants.py:183: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                  "post_content": "empty",
+                  ^|
+fb_post/constants.py:184: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                  "reactions": {
+                  ^|
+fb_post/constants.py:185: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                     "count": 4,
+                     ^|
+fb_post/constants.py:186: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                     "type": [
+                     ^|
+fb_post/constants.py:187: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                        "LOVE",
+                        ^|
+fb_post/constants.py:188: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                        "SAD",
+                        ^|
+fb_post/constants.py:189: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                        "WOW"
+                        ^|
+fb_post/constants.py:192: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                  "comments": [
+                  ^|
+fb_post/constants.py:193: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                     {
+                     ^|
+fb_post/constants.py:194: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                        "comment_id": 1,
+                        ^|
+fb_post/constants.py:195: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                        "commenter": {
+                        ^|
+fb_post/constants.py:196: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                           "user_id": 3,
+                           ^|
+fb_post/constants.py:197: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                           "name": "elon musk",
+                           ^|
+fb_post/constants.py:198: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                           "profile_pic": "elonmusk/profile_pic"
+                           ^|
+fb_post/constants.py:200: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                        "commented_at": "2012-01-14 00:00:00.000000",
+                        ^|
+fb_post/constants.py:201: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                        "comment_content": "this is comment",
+                        ^|
+fb_post/constants.py:202: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                        "reactions": {
+                        ^|
+fb_post/constants.py:203: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                           "count": 4,
+                           ^|
+fb_post/constants.py:204: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                           "type": [
+                           ^|
+fb_post/constants.py:205: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                              "LOVE",
+                              ^|
+fb_post/constants.py:206: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                              "SAD",
+                              ^|
+fb_post/constants.py:207: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                              "WOW"
+                              ^|
+fb_post/constants.py:210: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                        "replies_count": 1,
+                        ^|
+fb_post/constants.py:211: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                        "replies": [
+                        ^|
+fb_post/constants.py:212: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                           {
+                           ^|
+fb_post/constants.py:213: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                              "comment_id": 4,
+                              ^|
+fb_post/constants.py:214: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                              "commenter": {
+                              ^|
+fb_post/constants.py:215: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                                 "user_id": 4,
+                                 ^|
+fb_post/constants.py:216: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                                 "name": "sravani",
+                                 ^|
+fb_post/constants.py:217: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                                 "profile_pic": "sravani/profile_pic"
+                                 ^|
+fb_post/constants.py:219: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                              "commented_at": "2012-01-14 00:00:00.000000",
+                              ^|
+fb_post/constants.py:220: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                              "comment_content": "this is comment",
+                              ^|
+fb_post/constants.py:221: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                              "reactions": {
+                              ^|
+fb_post/constants.py:222: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                                 "count": 1,
+                                 ^|
+fb_post/constants.py:223: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                                 "type": [
+                                 ^|
+fb_post/constants.py:224: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                                    "LIT"
+                                    ^|
+fb_post/constants.py:230: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                     {
+                     ^|
+fb_post/constants.py:231: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                        "comment_id": 2,
+                        ^|
+fb_post/constants.py:232: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                        "commenter": {
+                        ^|
+fb_post/constants.py:233: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                           "user_id": 1,
+                           ^|
+fb_post/constants.py:234: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                           "name": "sulthan",
+                           ^|
+fb_post/constants.py:235: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                           "profile_pic": "sulthan_babu/profile_pic"
+                           ^|
+fb_post/constants.py:237: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                        "commented_at": "2012-01-14 00:00:00.000000",
+                        ^|
+fb_post/constants.py:238: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                        "comment_content": "this is comment",
+                        ^|
+fb_post/constants.py:239: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                        "reactions": {
+                        ^|
+fb_post/constants.py:240: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                           "count": 1,
+                           ^|
+fb_post/constants.py:241: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                           "type": [
+                           ^|
+fb_post/constants.py:242: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                              "WOW"
+                              ^|
+fb_post/constants.py:245: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                        "replies_count": 1,
+                        ^|
+fb_post/constants.py:246: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                        "replies": [
+                        ^|
+fb_post/constants.py:247: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                           {
+                           ^|
+fb_post/constants.py:248: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                              "comment_id": 3,
+                              ^|
+fb_post/constants.py:249: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                              "commenter": {
+                              ^|
+fb_post/constants.py:250: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                                 "user_id": 3,
+                                 ^|
+fb_post/constants.py:251: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                                 "name": "elon musk",
+                                 ^|
+fb_post/constants.py:252: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                                 "profile_pic": "elonmusk/profile_pic"
+                                 ^|
+fb_post/constants.py:254: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                              "commented_at": "2012-01-14 00:00:00.000000",
+                              ^|
+fb_post/constants.py:255: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                              "comment_content": "this is comment",
+                              ^|
+fb_post/constants.py:256: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                              "reactions": {
+                              ^|
+fb_post/constants.py:257: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                                 "count": 1,
+                                 ^|
+fb_post/constants.py:258: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                                 "type": [
+                                 ^|
+fb_post/constants.py:259: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                                    "ANGRY"
+                                    ^|
+fb_post/constants.py:266: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                  "comments_count": 2
+                  ^|
+fb_post/constants.py:268: [C0330(bad-continuation), ] Wrong hanging indentation (remove 7 spaces).
+               {
+        |      ^
+fb_post/constants.py:269: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                  "post_id": 2,
+                  ^|
+fb_post/constants.py:270: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                  "posted_by": {
+                  ^|
+fb_post/constants.py:271: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                     "name": "sulthan",
+                     ^|
+fb_post/constants.py:272: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                     "user_id": 1,
+                     ^|
+fb_post/constants.py:273: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                     "profile_pic": "sulthan_babu/profile_pic"
+                     ^|
+fb_post/constants.py:275: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                  "posted_at": "2012-01-14 00:00:00.000000",
+                  ^|
+fb_post/constants.py:276: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                  "post_content": "empty",
+                  ^|
+fb_post/constants.py:277: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                  "reactions": {
+                  ^|
+fb_post/constants.py:278: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                     "count": 1,
+                     ^|
+fb_post/constants.py:279: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                     "type": [
+                     ^|
+fb_post/constants.py:280: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                        "ANGRY"
+                        ^|
+fb_post/constants.py:283: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                  "comments": [
+                  ^|
+fb_post/constants.py:284: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                     {
+                     ^|
+fb_post/constants.py:285: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                        "comment_id": 8,
+                        ^|
+fb_post/constants.py:286: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                        "commenter": {
+                        ^|
+fb_post/constants.py:287: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                           "user_id": 5,
+                           ^|
+fb_post/constants.py:288: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                           "name": "che quevara",
+                           ^|
+fb_post/constants.py:289: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                           "profile_pic": "chequeara/profile_pic"
+                           ^|
+fb_post/constants.py:291: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                        "commented_at": "2012-01-14 00:00:00.000000",
+                        ^|
+fb_post/constants.py:292: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                        "comment_content": "this is comment",
+                        ^|
+fb_post/constants.py:293: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                        "reactions": {
+                        ^|
+fb_post/constants.py:294: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                           "count": 0,
+                           ^|
+fb_post/constants.py:295: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                           "type": []
+                           ^|
+fb_post/constants.py:297: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                        "replies_count": 1,
+                        ^|
+fb_post/constants.py:298: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                        "replies": [
+                        ^|
+fb_post/constants.py:299: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                           {
+                           ^|
+fb_post/constants.py:300: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                              "comment_id": 9,
+                              ^|
+fb_post/constants.py:301: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                              "commenter": {
+                              ^|
+fb_post/constants.py:302: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                                 "user_id": 5,
+                                 ^|
+fb_post/constants.py:303: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                                 "name": "che quevara",
+                                 ^|
+fb_post/constants.py:304: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                                 "profile_pic": "chequeara/profile_pic"
+                                 ^|
+fb_post/constants.py:306: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                              "commented_at": "2012-01-14 00:00:00.000000",
+                              ^|
+fb_post/constants.py:307: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                              "comment_content": "this is comment",
+                              ^|
+fb_post/constants.py:308: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                              "reactions": {
+                              ^|
+fb_post/constants.py:309: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                                 "count": 0,
+                                 ^|
+fb_post/constants.py:310: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                                 "type": []
+                                 ^|
+fb_post/constants.py:316: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                  "comments_count": 1
+                  ^|
+fb_post/constants.py:318: [C0330(bad-continuation), ] Wrong hanging indentation (remove 7 spaces).
+               {
+        |      ^
+fb_post/constants.py:319: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                  "post_id": 10,
+                  ^|
+fb_post/constants.py:320: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                  "posted_by": {
+                  ^|
+fb_post/constants.py:321: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                     "name": "sulthan",
+                     ^|
+fb_post/constants.py:322: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                     "user_id": 1,
+                     ^|
+fb_post/constants.py:323: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                     "profile_pic": "sulthan_babu/profile_pic"
+                     ^|
+fb_post/constants.py:325: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                  "posted_at": "2012-01-14 00:00:00.000000",
+                  ^|
+fb_post/constants.py:326: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                  "post_content": "empty",
+                  ^|
+fb_post/constants.py:327: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                  "reactions": {
+                  ^|
+fb_post/constants.py:328: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                     "count": 0,
+                     ^|
+fb_post/constants.py:329: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                     "type": []
+                     ^|
+fb_post/constants.py:331: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                  "comments": [],
+                  ^|
+fb_post/constants.py:332: [C0330(bad-continuation), ] Wrong hanging indentation (add 1 space).
+                  "comments_count": 0
+                  ^|
+fb_post/constants.py:334: [C0330(bad-continuation), ] Wrong hanging indentation.
+            ]
+    |   |   ^
+fb_post/constants.py:336: [C0330(bad-continuation), ] Wrong hanging indentation (remove 20 spaces).
+                            {'comment_id': 4, 
+        |                   ^
+fb_post/constants.py:336: [C0303(trailing-whitespace), ] Trailing whitespace
+fb_post/constants.py:337: [C0330(bad-continuation), ] Wrong continued indentation (add 1 space).
+                            'commenter': {
+                            ^|
+fb_post/constants.py:338: [C0303(trailing-whitespace), ] Trailing whitespace
+fb_post/constants.py:339: [C0303(trailing-whitespace), ] Trailing whitespace
+fb_post/constants.py:342: [C0330(bad-continuation), ] Wrong continued indentation (add 1 space).
+                            'commented_at': '2012-01-14 00:00:00.000000', 
+                            ^|
+fb_post/constants.py:342: [C0303(trailing-whitespace), ] Trailing whitespace
+fb_post/constants.py:343: [C0330(bad-continuation), ] Wrong continued indentation (add 1 space).
+                            'comment_content': 'this is comment'
+                            ^|
+fb_post/constants.py:344: [C0303(trailing-whitespace), ] Trailing whitespace
+fb_post/constants.py:346: [C0303(trailing-whitespace), ] Trailing whitespace
+fb_post/constants.py:347: [C0330(bad-continuation), ] Wrong hanging indentation (remove 20 spaces).
+                            {
+        |                   ^
+fb_post/constants.py:348: [C0330(bad-continuation), ] Wrong hanging indentation (add 4 spaces).
+                            'comment_id': 5,
+                            ^   |
+fb_post/constants.py:349: [C0330(bad-continuation), ] Wrong hanging indentation (add 4 spaces).
+                            'commenter': {
+                            ^   |
+fb_post/constants.py:350: [C0303(trailing-whitespace), ] Trailing whitespace
+fb_post/constants.py:351: [C0303(trailing-whitespace), ] Trailing whitespace
+fb_post/constants.py:353: [C0303(trailing-whitespace), ] Trailing whitespace
+fb_post/constants.py:354: [C0330(bad-continuation), ] Wrong hanging indentation (add 4 spaces).
+                            'commented_at': '2012-01-14 00:00:00.000000',
+                            ^   |
+fb_post/constants.py:355: [C0330(bad-continuation), ] Wrong hanging indentation (add 4 spaces).
+                            'comment_content': 'this is comment'
+                            ^   |
+fb_post/constants.py:359: [C0330(bad-continuation), ] Wrong hanging indentation (remove 24 spaces).
+                                {
+        |                       ^
+fb_post/constants.py:360: [C0330(bad-continuation), ] Wrong hanging indentation (add 4 spaces).
+                                'user_id': 1, 'name': 'sulthan', 
+                                ^   |
+fb_post/constants.py:360: [C0303(trailing-whitespace), ] Trailing whitespace
+fb_post/constants.py:361: [C0330(bad-continuation), ] Wrong hanging indentation (add 4 spaces).
+                                'profile_pic': 'sulthan_babu/profile_pic', 
+                                ^   |
+fb_post/constants.py:361: [C0303(trailing-whitespace), ] Trailing whitespace
+fb_post/constants.py:362: [C0330(bad-continuation), ] Wrong hanging indentation (add 4 spaces).
+                                'reaction': 'WOW'
+                                ^   |
+fb_post/constants.py:363: [C0303(trailing-whitespace), ] Trailing whitespace
+fb_post/constants.py:364: [C0303(trailing-whitespace), ] Trailing whitespace
+fb_post/constants.py:365: [C0330(bad-continuation), ] Wrong hanging indentation (remove 24 spaces).
+                                {
+        |                       ^
+fb_post/constants.py:366: [C0330(bad-continuation), ] Wrong hanging indentation (add 4 spaces).
+                                'user_id': 5, 'name': 'che quevara', 
+                                ^   |
+fb_post/constants.py:366: [C0303(trailing-whitespace), ] Trailing whitespace
+fb_post/constants.py:367: [C0330(bad-continuation), ] Wrong hanging indentation (add 4 spaces).
+                                'profile_pic': 'chequeara/profile_pic', 
+                                ^   |
+fb_post/constants.py:367: [C0303(trailing-whitespace), ] Trailing whitespace
+fb_post/constants.py:368: [C0330(bad-continuation), ] Wrong hanging indentation (add 4 spaces).
+                                'reaction': 'WOW'
+                                ^   |
+fb_post/constants.py:370: [C0330(bad-continuation), ] Wrong hanging indentation (remove 24 spaces).
+                                {
+        |                       ^
+fb_post/constants.py:371: [C0330(bad-continuation), ] Wrong hanging indentation (add 4 spaces).
+                                'user_id': 3, 'name': 'elon musk', 
+                                ^   |
+fb_post/constants.py:371: [C0303(trailing-whitespace), ] Trailing whitespace
+fb_post/constants.py:372: [C0330(bad-continuation), ] Wrong hanging indentation (add 4 spaces).
+                                'profile_pic': 'elonmusk/profile_pic',
+                                ^   |
+fb_post/constants.py:373: [C0330(bad-continuation), ] Wrong hanging indentation (add 4 spaces).
+                                'reaction': 'LOVE'
+                                ^   |
+fb_post/constants.py:374: [C0303(trailing-whitespace), ] Trailing whitespace
+fb_post/constants.py:375: [C0330(bad-continuation), ] Wrong hanging indentation (remove 24 spaces).
+                                {
+        |                       ^
+fb_post/constants.py:376: [C0330(bad-continuation), ] Wrong hanging indentation (add 4 spaces).
+                                'user_id': 4, 'name': 'sravani',
+                                ^   |
+fb_post/constants.py:377: [C0330(bad-continuation), ] Wrong hanging indentation (add 4 spaces).
+                                'profile_pic': 'sravani/profile_pic', 
+                                ^   |
+fb_post/constants.py:377: [C0303(trailing-whitespace), ] Trailing whitespace
+fb_post/constants.py:378: [C0330(bad-continuation), ] Wrong hanging indentation (add 4 spaces).
+                                'reaction': 'SAD'
+                                ^   |
+fb_post/constants.py:380: [C0330(bad-continuation), ] Wrong hanging indentation.
+                     ]
+    |   |            ^
+fb_post/constants.py:1: [C0302(too-many-lines), ] Too many lines in module (380/200)
+fb_post/constants.py:1: [C0103(invalid-name), ] Module name "fb_post/constants" doesn't conform to snake_case naming style
+fb_post/constants.py:15: [C0103(invalid-name), ] Constant name "users_list" doesn't conform to UPPER_CASE naming style
+fb_post/constants.py:24: [C0103(invalid-name), ] Constant name "posts_list" doesn't conform to UPPER_CASE naming style
+fb_post/constants.py:38: [C0103(invalid-name), ] Constant name "comments_list" doesn't conform to UPPER_CASE naming style
+fb_post/constants.py:50: [C0103(invalid-name), ] Constant name "reactions_list" doesn't conform to UPPER_CASE naming style
+************* Module fb_post/exceptions
+fb_post/exceptions.py:1: [C0103(invalid-name), ] Module name "fb_post/exceptions" doesn't conform to snake_case naming style
+
+--------------------------------------------------------------------
+Your code has been rated at -2.86/10 (previous run: 9.80/10, -12.66)
+

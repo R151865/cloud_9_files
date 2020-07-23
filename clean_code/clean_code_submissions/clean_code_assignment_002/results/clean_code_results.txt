@@ -1,0 +1,365 @@
+************* Module truck
+truck.py:23: [R0201(no-self-use), Truck.is_valid_cargo_weight] Method could be a function
+************* Module race_car
+race_car.py:16: [C0325(superfluous-parens), ] Unnecessary parens after 'if' keyword
+race_car.py:19: [C0325(superfluous-parens), ] Unnecessary parens after 'if' keyword
+race_car.py:21: [C0325(superfluous-parens), ] Unnecessary parens after 'if' keyword
+race_car.py:22: [W0311(bad-indentation), ] Bad indentation. Found 16 spaces, expected 12
+race_car.py:33: [C0330(bad-continuation), ] Wrong continued indentation before block.
+           self.is_engine_started):
+           ^|   |
+race_car.py:32: [R0916(too-many-boolean-expressions), RaceCar.apply_brakes] Too many boolean expressions in if statement (2/1)
+************* Module tests.tests_race_car_acceleration
+tests/tests_race_car_acceleration.py:35: [C0301(line-too-long), ] Line too long (81/79)
+************* Module tests.tests_car_start_stop_engine
+tests/tests_car_start_stop_engine.py:54: [C0301(line-too-long), ] Line too long (123/79)
+tests/tests_car_start_stop_engine.py:69: [C0301(line-too-long), ] Line too long (102/79)
+************* Module tests.race_car
+tests/race_car.py:16: [C0325(superfluous-parens), ] Unnecessary parens after 'if' keyword
+tests/race_car.py:19: [C0325(superfluous-parens), ] Unnecessary parens after 'if' keyword
+tests/race_car.py:21: [C0325(superfluous-parens), ] Unnecessary parens after 'if' keyword
+tests/race_car.py:32: [R0916(too-many-boolean-expressions), RaceCar.apply_brakes] Too many boolean expressions in if statement (2/1)
+************* Module tests.tests_truck_acceleration
+tests/tests_truck_acceleration.py:39: [C0301(line-too-long), ] Line too long (81/79)
+************* Module tests.tests_car_init
+tests/tests_car_init.py:20: [C0301(line-too-long), ] Line too long (82/79)
+tests/tests_car_init.py:22: [C0301(line-too-long), ] Line too long (82/79)
+************* Module tests.tests_car_encapsulation
+tests/tests_car_encapsulation.py:4: [C0301(line-too-long), ] Line too long (80/79)
+tests/tests_car_encapsulation.py:46: [C0301(line-too-long), ] Line too long (80/79)
+tests/tests_car_encapsulation.py:74: [C0301(line-too-long), ] Line too long (84/79)
+************* Module tests.tests_truck_unload
+tests/tests_truck_unload.py:6: [C0301(line-too-long), ] Line too long (106/79)
+tests/tests_truck_unload.py:32: [C0301(line-too-long), ] Line too long (86/79)
+tests/tests_truck_unload.py:33: [C0301(line-too-long), ] Line too long (103/79)
+tests/tests_truck_unload.py:37: [C0301(line-too-long), ] Line too long (81/79)
+tests/tests_truck_unload.py:31: [R0913(too-many-arguments), test_unload_when_truck_engine_started_and_current_speed_is_not_zero_print_message] Too many arguments (7/6)
+************* Module tests.tests_car_brakes
+tests/tests_car_brakes.py:28: [C0301(line-too-long), ] Line too long (90/79)
+tests/tests_car_brakes.py:41: [C0301(line-too-long), ] Line too long (121/79)
+tests/tests_car_brakes.py:63: [C0301(line-too-long), ] Line too long (120/79)
+tests/tests_car_brakes.py:14: [C0415(import-outside-toplevel), test_apply_brakes_when_engine_started_and_accelerated_return_current_speed] Import outside toplevel (car)
+************* Module tests.tests_race_car_start_stop
+tests/tests_race_car_start_stop.py:17: [C0301(line-too-long), ] Line too long (80/79)
+tests/tests_race_car_start_stop.py:37: [C0301(line-too-long), ] Line too long (84/79)
+tests/tests_race_car_start_stop.py:56: [C0301(line-too-long), ] Line too long (94/79)
+tests/tests_race_car_start_stop.py:72: [C0301(line-too-long), ] Line too long (107/79)
+************* Module tests.tests_truck_init
+tests/tests_truck_init.py:5: [R0915(too-many-statements), test_creating_multiple_truck_instances_with_valid_details] Too many statements (23/20)
+************* Module tests.tests_truck_brakes
+tests/tests_truck_brakes.py:31: [C0301(line-too-long), ] Line too long (92/79)
+tests/tests_truck_brakes.py:44: [C0301(line-too-long), ] Line too long (123/79)
+tests/tests_truck_brakes.py:66: [C0301(line-too-long), ] Line too long (122/79)
+************* Module tests.tests_truck_start_stop
+tests/tests_truck_start_stop.py:5: [C0301(line-too-long), ] Line too long (114/79)
+tests/tests_truck_start_stop.py:48: [C0301(line-too-long), ] Line too long (80/79)
+tests/tests_truck_start_stop.py:53: [C0301(line-too-long), ] Line too long (92/79)
+tests/tests_truck_start_stop.py:54: [C0301(line-too-long), ] Line too long (81/79)
+tests/tests_truck_start_stop.py:73: [C0301(line-too-long), ] Line too long (124/79)
+************* Module tests.tests_race_car_brakes
+tests/tests_race_car_brakes.py:28: [C0301(line-too-long), ] Line too long (85/79)
+tests/tests_race_car_brakes.py:42: [C0301(line-too-long), ] Line too long (126/79)
+tests/tests_race_car_brakes.py:64: [C0301(line-too-long), ] Line too long (152/79)
+************* Module tests.tests_race_car_nitro
+tests/tests_race_car_nitro.py:6: [C0301(line-too-long), ] Line too long (83/79)
+tests/tests_race_car_nitro.py:56: [C0301(line-too-long), ] Line too long (107/79)
+************* Module tests.tests_truck_load
+tests/tests_truck_load.py:151: [C0301(line-too-long), ] Line too long (84/79)
+tests/tests_truck_load.py:202: [C0301(line-too-long), ] Line too long (84/79)
+tests/tests_truck_load.py:1: [C0302(too-many-lines), ] Too many lines in module (223/200)
+tests/tests_truck_load.py:150: [R0913(too-many-arguments), test_load_when_truck_engine_started_and_current_speed_is_not_zero_print_message] Too many arguments (7/6)
+tests/tests_truck_load.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==car:0
+==tests.car:0
+class Car:
+    def __init__(self, max_speed, acceleration, tyre_friction, color='Blue'):
+        if max_speed <= 0:
+            raise ValueError('Invalid value for max_speed')
+        if acceleration <= 0:
+            raise ValueError('Invalid value for acceleration')
+        if tyre_friction <= 0:
+            raise ValueError('Invalid value for tyre_friction')
+        self._max_speed = max_speed
+        self._tyre_friction = tyre_friction
+        self._acceleration = acceleration
+        self._color = color
+        self._horn = "Beep Beep"
+        self._is_engine_started = False
+        self._current_speed = 0
+
+    @property
+    def max_speed(self):
+        return self._max_speed
+
+    @property
+    def tyre_friction(self):
+        return self._tyre_friction
+
+    @property
+    def acceleration(self):
+        return self._acceleration
+
+    @property
+    def color(self):
+        return self._color
+
+    @property
+    def is_engine_started(self):
+        return self._is_engine_started
+
+    @property
+    def current_speed(self):
+        return self._current_speed
+
+    def start_engine(self):
+        self._is_engine_started = True
+
+    def stop_engine(self):
+        self._is_engine_started = False
+
+    def accelerate(self):
+        if self._is_engine_started:
+            self._current_speed += self._acceleration
+            if self._current_speed > self._max_speed:
+                self._current_speed = self._max_speed
+        else:
+            print('Start the engine to accelerate')
+
+    def apply_brakes(self):
+        self._current_speed -= self._tyre_friction
+        if self._current_speed <= 0:
+            self._current_speed = 0
+
+    def sound_horn(self):
+        if self._is_engine_started:
+            print(self._horn)
+        else:
+            print('Start the engine to sound_horn')
+tests/tests_truck_load.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==race_car:0
+==tests.race_car:0
+import math
+from car import Car
+
+
+class RaceCar(Car):
+    def __init__(self, max_speed, acceleration, tyre_friction, color='Blue'):
+        super().__init__(max_speed, acceleration, tyre_friction, color)
+        self._nitro = 0
+        self._horn = 'Peep Peep\nBeep Beep'
+
+    @property
+    def nitro(self):
+        return self._nitro
+
+    def extra_accelerate_with_nitro(self):
+        if (self._nitro > 0):
+            self._current_speed += math.ceil(self._acceleration*0.3)
+            self._nitro -= 10
+            if(self._nitro <= 0):
+                self._nitro = 0
+        if(self._current_speed > self._max_speed):
+                self._current_speed = self._max_speed
+
+    def accelerate(self):
+        if self._is_engine_started:
+            self._current_speed += self._acceleration
+            self.extra_accelerate_with_nitro()
+        else:
+            print('Start the engine to accelerate')
+
+    def apply_brakes(self):
+        if (self._current_speed > ((self._max_speed)/2) and
+           self.is_engine_started):
+            self._nitro += 10
+        super().apply_brakes()
+tests/tests_truck_load.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==tests.truck:23
+==truck:23
+        if cargo_weight <= 0:
+            raise ValueError('Invalid value for cargo_weight')
+
+    def load(self, cargo_weight):
+        self.is_valid_cargo_weight(cargo_weight)
+        if self._current_speed == 0:
+            self._load_weight += cargo_weight
+            if self._load_weight > self._max_cargo_weight:
+                self._load_weight -= cargo_weight
+                print('Cannot load cargo more than'
+                      ' max limit: {}'.format(self.max_cargo_weight))
+        else:
+            print('Cannot load cargo during motion')
+
+    def unload(self, cargo_weight):
+        self.is_valid_cargo_weight(cargo_weight)
+        if self._current_speed == 0:
+            self._load_weight -= cargo_weight
+            if self._load_weight < 0:
+                self._load_weight = 0
+        else:
+            print('Cannot unload cargo during motion')
+tests/tests_truck_load.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==tests.truck:6
+==truck:7
+        if max_cargo_weight <= 0:
+            raise ValueError('Invalid value for max_cargo_weight')
+        super().__init__(max_speed, acceleration, tyre_friction, color)
+        self._max_cargo_weight = max_cargo_weight
+        self._horn = 'Honk Honk'
+        self._load_weight = 0
+
+    @property
+    def max_cargo_weight(self):
+        return self._max_cargo_weight
+
+    @property
+    def load_weight(self):
+        return self._load_weight
+
+tests/tests_truck_load.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==tests.tests_truck_init:120
+==tests.tests_truck_sound:66
+    max_speed = 1
+    acceleration = 1
+    tyre_friction = 1
+    max_cargo_weight = 1
+
+    # Act
+    truck = Truck(max_speed=max_speed,
+                  acceleration=acceleration,
+                  tyre_friction=tyre_friction,
+                  max_cargo_weight=max_cargo_weight)
+
+    # Assert
+tests/tests_truck_load.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==tests.tests_car_init:8
+==tests.tests_race_car_instances:7
+    max_speed_1 = 30
+    acceleration_1 = 12
+    tyre_friction_1 = 11
+    color_1 = 'Blue'
+
+    max_speed_2 = 330
+    acceleration_2 = 50
+    tyre_friction_2 = 30
+    color_2 = 'White'
+
+    # Act
+tests/tests_truck_load.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==tests.tests_race_car_brakes:4
+==tests.tests_truck_brakes:4
+@pytest.mark.parametrize(
+    "max_speed, acceleration, tyre_friction, current_speed", [
+        (30, 10, 5, 5),
+        (40, 2, 1, 1),
+        (40, 30, 10, 20)
+        ])
+def test_apply_brakes_when_engine_started_and_accelerated_return_current_speed(
+        max_speed, acceleration, tyre_friction, current_speed):
+
+    # Arrage
+tests/tests_truck_load.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==tests.tests_race_car_brakes:14
+==tests.tests_race_car_nitro:12
+    race_car = RaceCar(max_speed=max_speed, acceleration=acceleration,
+                       tyre_friction=tyre_friction)
+    race_car.start_engine()
+    race_car.accelerate()
+
+    # Act
+    race_car.apply_brakes()
+
+    # Assert
+tests/tests_truck_load.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==tests.tests_race_car_init:21
+==tests.tests_truck_init:114
+    assert str(error.value) == invalid_value_for_max_speed
+
+
+def test_init_function_when_valid_max_speed_is_given_do_not_raise_error():
+
+    # Arrange
+    max_speed = 1
+    acceleration = 1
+    tyre_friction = 1
+tests/tests_truck_load.py:1: [R0801(duplicate-code), ] Similar lines in 3 files
+==tests.tests_car_brakes:5
+==tests.tests_race_car_brakes:6
+==tests.tests_truck_brakes:6
+        (30, 10, 5, 5),
+        (40, 2, 1, 1),
+        (40, 30, 10, 20)
+        ])
+def test_apply_brakes_when_engine_started_and_accelerated_return_current_speed(
+        max_speed, acceleration, tyre_friction, current_speed):
+
+    # Arrage
+tests/tests_truck_load.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==tests.tests_car_acceleration:7
+==tests.tests_race_car_acceleration:7
+        (30, 29, 3, 29),
+        (30, 31, 1, 30),
+        (30, 30, 30, 30)
+        ])
+def test_accelerate_when_engine_started_return_current_speed(
+        max_speed, acceleration, tyre_friction, current_speed):
+
+    # Arrange
+tests/tests_truck_load.py:1: [R0801(duplicate-code), ] Similar lines in 3 files
+==tests.tests_truck_init:107
+==tests.tests_truck_init:148
+==tests.tests_truck_sound:94
+    with pytest.raises(ValueError) as error:
+        Truck(max_speed=max_speed,
+              acceleration=acceleration,
+              tyre_friction=tyre_friction,
+              max_cargo_weight=max_cargo_weight)
+
+    # Assert
+tests/tests_truck_load.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==tests.tests_truck_brakes:15
+==tests.tests_truck_load:43
+    truck = Truck(max_speed=max_speed,
+                  acceleration=acceleration,
+                  tyre_friction=tyre_friction,
+                  max_cargo_weight=max_cargo_weight)
+    truck.start_engine()
+    truck.accelerate()
+tests/tests_truck_load.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==tests.tests_car_acceleration:28
+==tests.tests_race_car_acceleration:28
+@pytest.mark.parametrize(
+    "max_speed, acceleration, tyre_friction", [
+        (30, 29, 3),
+        (50, 35, 1),
+        (10, 5, 3)
+        ])
+tests/tests_truck_load.py:1: [R0801(duplicate-code), ] Similar lines in 3 files
+==tests.tests_truck_brakes:15
+==tests.tests_truck_load:43
+==tests.tests_truck_start_stop:56
+    truck = Truck(max_speed=max_speed,
+                  acceleration=acceleration,
+                  tyre_friction=tyre_friction,
+                  max_cargo_weight=max_cargo_weight)
+    truck.start_engine()
+tests/tests_truck_load.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==tests.tests_race_car_init:4
+==tests.tests_truck_init:94
+@pytest.mark.parametrize(
+    "max_speed, acceleration, tyre_friction", [
+        (-1, 10, 3),
+        (0, 3, 10)
+        ])
+tests/tests_truck_load.py:1: [R0801(duplicate-code), ] Similar lines in 2 files
+==tests.tests_race_car_init:59
+==tests.tests_truck_sound:81
+@pytest.mark.parametrize(
+    "max_speed, acceleration, tyre_friction", [
+        (30, 10, -1),
+        (40, 10, 0)
+        ])
+
+-------------------------------------------------------------------
+Your code has been rated at 9.37/10 (previous run: 10.00/10, -0.63)
+

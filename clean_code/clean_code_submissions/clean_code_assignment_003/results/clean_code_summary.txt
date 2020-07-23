@@ -1,0 +1,6 @@
+Clean Code Results Summary at 23 Apr 09 55 PM:
+
+Overall Score: 3.6875
+
+File wise summary:
+store: 3.6875
